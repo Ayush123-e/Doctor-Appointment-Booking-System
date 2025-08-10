@@ -51,28 +51,25 @@ doctor-appointment-system/
 └── package.json
 
 
-This aligns with the structure from a similar project, **VineethKumar-2003/Doctor-Booking-React-App** :contentReference[oaicite:5]{index=5}.
 
-##  Getting Started
-
+___
+# Getting Started(Workflow)
 ### Prerequisites
-- Node.js and npm/yarn installed
-- MongoDB (local or cloud instance)
-- Optional: API keys for Stripe or email service
+ Node.js and npm/yarn installed
+ MongoDB (local or cloud instance)
+ API keys for Stripe or email service
 
-### Installation
-```bash
-# Clone repository
+## Clone repository
 git clone <repo-url>
 cd doctor-appointment-system
 
-# Backend setup
+## Backend setup
 cd backend
 npm install
-# Create .env with MONGO_URI, JWT_SECRET, (optional) EMAIL creds, PAYMENT keys
+## Create .env with MONGO_URI, JWT_SECRET, EMAIL creds, PAYMENT keys
 npm start
 
-# Frontend setup
+## Frontend setup
 cd ../frontend
 npm install
 npm start
